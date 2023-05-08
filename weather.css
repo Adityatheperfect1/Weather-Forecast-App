@@ -50,9 +50,7 @@ h1{
     text-align: center;
 }
 body{
-    background: whitesmoke;
     padding: 1rem 5rem;
-    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     background-image: url('./icons/Cloudy-Bg.svg');
     background-size: cover;
