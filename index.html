@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,23 @@
     <link rel="stylesheet" href="weather.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
 </head>
+
 <body>
     <header>
-        <div class="App_name" style="position: relative; left:75px;">
-            <h1>WEATHER APP</h1>
-        </div>
-        <div class="App-Logo" style="position: relative; left:390px;">
-            <p id="App_Name">Weather<span>Forecast</span></p>
-            <img src="./icons/Icon.svg" alt="App-icon" class="App_Icon">
-        </div>
-        <div style="position: relative; left:400px;">
-            <input type="text" name="" id="input" placeholder="Enter city name">
-            <button id="search" onclick="searchByCity()">Search</button></input>
-        </div>
+            <div class="App_name">
+                <h1>WEATHER APP</h1>
+            </div>
+            <div class="App-Logo">
+                <p id="App_Name">Weather<span>Forecast</span></p>
+                <img src="./icons/Icon.svg" alt="App-icon" class="App_Icon">
+            </div>
+
+            <div>
+                <input type="text" name="" id="input" placeholder="Enter city name">
+                <button id="search" onclick="searchByCity()">Search</button></input>
+            </div>
     </header>
-    <main style="margin-top: 70px;">        
+    <main style="margin-top: 87px;">
         <div class="weather">
             <h2 id="city">Delhi,IN</h2>
             <div class="temp-box">
@@ -118,4 +121,5 @@
     </footer>
     <script src="weather.js"></script>
 </body>
+
 </html>

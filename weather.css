@@ -9,13 +9,15 @@
 /* Header Style */
 header {
     width: 100%;
-    height: 14vh;
+    height: 10vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-image: url('./icons/16953.jpg');
     position: fixed;
     top: 0;
     left:0px;
+    box-shadow: 0px 0px 10px black;
 }
 
 #App_Name {
@@ -23,7 +25,7 @@ header {
     color:white;
     font-weight: 700;
     font-size: 28px;
-    
+    padding: 5px;    
 }
 
 #App_Name span {
@@ -38,6 +40,7 @@ header {
     width: 30%;
     height: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .App_Icon {
@@ -50,18 +53,14 @@ h1{
     text-align: center;
 }
 body{
-    padding: 1rem 5rem;
-    text-transform: capitalize;
     background-image: url('./icons/Cloudy-Bg.svg');
-    background-size: 100%;
-    background-repeat: repeat-y;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
+
 .App_name{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+    margin:50px;
 }
 .App_name h1{
     font-family: 'Solway', serif;
@@ -87,7 +86,13 @@ body{
     font-size: 17px;
     border-radius: 15px;
     cursor: pointer;
-    border: none;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    
+}
+#search:hover{
+    background-color: rgb(29, 118, 121);
 }
 .weather{
     text-align: center;
@@ -126,7 +131,7 @@ main{
     grid-column-gap: 25px;
     grid-template-columns: 1fr 5px 1fr;
     align-items: center;
-    margin: 0 50px;
+    margin: 0 70px;
     color: white;
 }
 .next{
@@ -174,15 +179,16 @@ main{
 
 footer {
     width: 100%;
-    height:9vh;
+    height:8vh;
     display: flex;
-    position: fixed;
+    position: absolute;
     left: 0px;
     bottom: 0px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-image: url('./icons/16953.jpg');
+    box-shadow: 0px 0px 10px black;
 }
 
 footer .App-Logo {
