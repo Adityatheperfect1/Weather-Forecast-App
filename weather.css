@@ -54,7 +54,7 @@ body{
     text-transform: capitalize;
     background-image: url('./icons/Cloudy-Bg.svg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 
 }
 .App_name{
