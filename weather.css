@@ -183,6 +183,7 @@ footer {
     display: flex;
     position: fixed;
     left:0px;
+    bottom: 0px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
