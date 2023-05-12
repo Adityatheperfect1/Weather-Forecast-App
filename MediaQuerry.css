@@ -20,6 +20,7 @@
     }
     header {
         height: 11vh;
+        position: fixed;
     }
     footer{
         height: 12hv;
