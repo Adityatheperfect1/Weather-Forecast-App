@@ -93,6 +93,7 @@ body{
 }
 #search:hover{
     background-color: rgb(29, 118, 121);
+    padding: 7px 20px;
 }
 .weather{
     text-align: center;
