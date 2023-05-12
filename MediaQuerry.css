@@ -12,7 +12,7 @@
         height: 80%;
     }
     .App_name{
-        margin-left: 20px;
+        margin-left: 10px;
         scale:50%;
     }
     main{
@@ -32,5 +32,8 @@
     margin-left: 10px;
     marigin-right: 15px;
     color: aliceblue;
+    }
+    .weekF{
+    margin-left: 10px;
     }
 }
