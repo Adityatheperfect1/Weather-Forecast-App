@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) and (min-width: 120px){
+    #search{
+        margin-left: 150px;
+        scale: 70%;
+    }
+    #input{
+        scale:80%;
+    }
+    .App-Logo {
+        scale:80%;
+        height: 80%;
+    }
+    .App_name{
+        scale:80%;
+    }
+    main{
+        margin-top: 130px;
+    }
+    header {
+        height: 11vh;
+    }
+}

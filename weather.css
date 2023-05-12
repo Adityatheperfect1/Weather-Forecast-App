@@ -55,7 +55,7 @@ h1{
 body{
     background-image: url('./icons/Cloudy-Bg.svg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 
 }
 
@@ -132,7 +132,9 @@ main{
     grid-column-gap: 25px;
     grid-template-columns: 1fr 5px 1fr;
     align-items: center;
-    margin: 0 70px;
+    margin-top: 87px;
+    /* margin: 60px 70px; */
+    /* margin: 60px; */
     color: white;
 }
 .next{
