@@ -1,17 +1,19 @@
 @media screen and (max-width: 768px) and (min-width: 120px){
     #search{
-        margin-left: 150px;
-        scale: 55%;
+        margin-left: 80px;
+        scale: 50%;
     }
     #input{
-        scale:60%;
+        scale:50%;
+        width: 50%;
     }
     .App-Logo {
         scale:90%;
         height: 80%;
     }
     .App_name{
-        scale:50%;
+        margin-left: 50px;
+        scale:40%;
     }
     main{
         margin-top: 120px;
@@ -19,13 +21,13 @@
         margin-left: 20px;
     }
     header {
-        height: 11vh;
+        height: 12vh;
     }
     footer{
-        height: 10hv;
+        height: 12hv;
     }
     .forecstD{
-    margin: 20px 20px;
+    margin: 20px 5px;
     color: aliceblue;
     }
 }
